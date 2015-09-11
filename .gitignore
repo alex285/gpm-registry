@@ -1,0 +1,13 @@
+#Folders
+misc
+
+# Standard to ignore files
+*.diff
+*.err
+*.log
+*.orig
+*.swo
+*.swp
+*.vi
+*.zip
+*~
