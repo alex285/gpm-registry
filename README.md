@@ -20,7 +20,7 @@ Packages follow [semver](http://semver.org/) schema. Since authors so far don't 
 
 
 ### Samples
-This is a minimum required `package.json`
+This is a minimum required `gpm.json`
 
 ```
 {
@@ -42,7 +42,7 @@ This is a minimum required `package.json`
 
 
 #### A more complete sample
-This is a minimum required `package.json`
+Some extensions might have package requirements. We'll deal with those later. Prolly add those on web service directly.
 ```
 {
   "name": "foo-me",
@@ -75,4 +75,7 @@ This is a minimum required `package.json`
 
 ## Pull Requests
 
-Please make requests **only** for Gnome Shell extensions (not themes now) and that **only** work on GNOME 3.18. `package.json` files might change. Hopefully not!
+Please make requests **only** for Gnome Shell extensions (not themes now) and that **only** work on GNOME 3.18. `gpm.json` files might change. Hopefully not!
+
+## GPM Dist
+For packaging auto deployment there should be a standard format. Since it is not possible for everyone to modify their repos, may authors can provide a `gpm-dist` directory on their repos? Ideas? 

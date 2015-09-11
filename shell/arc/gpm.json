@@ -1,0 +1,15 @@
+{
+  "name": "arc",
+  "version": "0.1.0",
+  "gnome": {
+    "type": "shell",
+    "version": [
+      "3.16",
+      "3.18"
+    ],
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/horst3180/Arc-theme.git"
+  }
+}
