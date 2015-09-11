@@ -1,0 +1,15 @@
+{
+  "name": "windowoverlay-icons",
+  "version": "0.1.0",
+  "gnome": {
+    "type": "extension",
+    "version": [
+      "3.16",
+      "3.18"
+    ],
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sustmi/gnome-shell-extensions-sustmi.git"
+  }
+}
