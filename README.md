@@ -1,5 +1,5 @@
 ## GPM Registry
-Packages definitions for GPM. Minimum GNOME version support is 3.18.
+Packages definitions for GPM ([NOT Go Package Manager](https://github.com/pote/gpm)). Minimum GNOME version support is 3.18.
 
 ### Requirements
 The source of the package should be hosted on [Github!](http://github.com/)
@@ -78,4 +78,4 @@ Some extensions might have package requirements. We'll deal with those later. Pr
 Please make requests **only** for Gnome Shell extensions (not themes now) and that **only** work on GNOME 3.18. `gpm.json` files might change. Hopefully not!
 
 ## GPM Dist
-For packaging auto deployment there should be a standard format. Since it is not possible for everyone to modify their repos, may authors can provide a `gpm-dist` directory on their repos? Ideas? 
+For packaging auto deployment there should be a standard format. Since it is not possible for everyone to modify their repos, may authors can provide a `gpm-dist` directory on their repos? Ideas?
